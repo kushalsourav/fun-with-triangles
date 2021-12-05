@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>quiz on container</h1>
+      <h3>For each correct answer you will get 1 point</h3>
+      <form action="#" class="quiz-form">
+        <div>
+          <p>
+            What is the third angle for the triangle where angle1 = 45° and
+            angle2 = 45°?
+          </p>
+          <label><input type="radio" name="question1" value="45°" />45°</label>
+          <label><input type="radio" name="question1" value="90°" />90°</label>
+          <label><input type="radio" name="question1" value="60°" />60°</label>
+        </div>
+        <div>
+          <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+          <label
+            ><input type="radio" name="question2" value="obtuse angle" />obtuse
+            angle</label
+          >
+          <label
+            ><input type="radio" name="question2" value="acute angle" />acute
+            angle</label
+          >
+          <label
+            ><input type="radio" name="question2" value="right angled" />right
+            angled</label
+          >
+        </div>
+        <div>
+          <p>Which of the following triangles are always similar?</p>
+          <label
+            ><input
+              type="radio"
+              name="question3"
+              value="Equilateral triangle"
+            />Equilateral triangle</label
+          >
+          <label
+            ><input type="radio" name="question3" value=" Isosceles triangle" />
+            Isosceles triangle</label
+          >
+        </div>
+        <div>
+          <p>A scalene triangle has ___ lines of symmetry</p>
+          <label><input type="radio" name="question4" value="two" /> two</label>
+          <label><input type="radio" name="question4" value="no" />no</label>
+          <label><input type="radio" name="question4" value="15" /> 15</label>
+        </div>
+      </form>
+      <button id="submit-btn">submit</button>
+      <h2 id="output"></h2>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
